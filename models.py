@@ -1,6 +1,6 @@
 from pydantic import BaseModel, Field
 from sqlalchemy import Column, Integer, String
-from .database import Base
+from database import Base
 
 class Livro(Base):
     __tablename__ = 'livros'

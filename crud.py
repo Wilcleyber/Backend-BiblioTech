@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session
-from . import models
+import models
 
 def get_livros(db: Session, skip: int = 0, limit: int = 30):
     return db.query(models.Livro).offset(skip).limit(limit).all()
