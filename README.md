@@ -1,17 +1,18 @@
-📚 Bibliotech Backend
-API for book management, built with FastAPI and SQLite.
-🚀 How to Run Locally
-1️⃣ Install dependencies:
-pip install -r requirements.txt
+📚 BiblioTech - Backend API
+The backend for the BiblioTech application, a book management system developed with FastAPI and PostgreSQL (originally with SQLite). The API is hosted online and ready to use!
 
+![API](./assets/API.png)
 
-2️⃣ Start the API:
-uvicorn main:app --reload
+🚀 Access the Online API
+▶️ Interactive documentation via Swagger UI:
+https://bibliotech-api-tnjq.onrender.com/docs
 
+![Swagger UI](./assets/Docs.png)
 
-3️⃣ Access API documentation at:
-http://localhost:8000/docs
+📦 Technologies
+- FastAPI
+- SQLAlchemy
+- PostgreSQL
+- Pydantic
 
-⚠️ Notes
-- The database is stored in /data/livros.db.
-- If used in production, consider configuring a persistent storage solution.
+Project for study and portfolio purposes. Feel free to contribute!
